@@ -23,7 +23,7 @@ if __name__ == "__main__":
     # Declare variable and set default values
     a = 4
     b = 2
-    print("Sum of " + str(a) + " and " + str(b) + " is ", add(a, b))
-    print("Difference of " + str(a) + " and " + str(b) + " is ", sub(a, b))
-    print("Product of " + str(a) + " and " + str(b) + " is ", mul(a, b))
-    print("Division of " + str(a) + " and " + str(b) + " is ", div(a, b))
+    print(f"Sum of {a} and {b} is ", add(a, b))
+    print(f"Difference of {a} and {b} is ", sub(a, b))
+    print(f"Product of {a} and {b} is ", mul(a, b))
+    print(f"Division of {a} and {b} is ", div(a, b))
